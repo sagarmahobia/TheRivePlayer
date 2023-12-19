@@ -1,6 +1,10 @@
 # Open Source
 ### Please support this project by giving this project a Star ⭐️
+
+### This project has only been tested on MacOS.
+
 ## Understanding the Project 
+
 
 This project endeavors to address challenges associated with previewing Rive files and inspecting all available state machines and inputs effortlessly, simply by double-clicking on the file within the file system. The existing web version for previewing on the web presents certain limitations, and our initiative aims to overcome these constraints. Developed using Flutter, this project is designed to be compatible with a wide range of operating systems, including Windows, MacOS, Linux, iOS, and Android.
 ## How can I Contribute?
