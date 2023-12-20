@@ -37,7 +37,13 @@ class _HomePageState extends State<HomePage> {
             },
             child: const Card(
               child: Center(
-                child: Text("Click here to pick file"),
+                child: Text(
+                  "Click here to pick file",
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ),
             ),
           ),
