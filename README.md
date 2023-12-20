@@ -4,8 +4,7 @@
 ### This project has only been tested on MacOS.
 
 ## Understanding the Project 
-https://github.com/sagarmahobia/TheRivePlayer/assets/12930930/a544f73a-ad32-4dda-9691-0758de6f07a5
-
+https://github.com/sagarmahobia/TheRivePlayer/assets/12930930/b300bfdb-1a08-4085-8d71-449676da339f
 
 This project endeavors to address challenges associated with previewing Rive files and inspecting all available state machines and inputs effortlessly, simply by double-clicking on the file within the file system. The existing web version for previewing on the web presents certain limitations, and our initiative aims to overcome these constraints. Developed using Flutter, this project is designed to be compatible with a wide range of operating systems, including Windows, MacOS, Linux, iOS, and Android.
 ## How can I Contribute?
@@ -19,6 +18,9 @@ Please start a new Issue in this repository. We love PRs & contributions that ad
 ### I have not contributed to any open source project before. Will I get any guidance?
 
 In case you are new to the open source ecosystem, we would be more than happy to guide you through the entire process. Please feel free to get in touch via GitHub issues.
+
+
+
 
 
 
