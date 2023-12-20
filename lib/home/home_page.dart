@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:file_picker/file_picker.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:the_rive_player/utils/util.dart';
 
@@ -25,14 +26,31 @@ class _HomePageState extends State<HomePage> {
               ImageUtil.filePick(
                 type: FileType.any,
               ).then((value) {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PlayerPage(
-                      file: value,
+                if (value != null && value.isNotEmpty) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => PlayerPage(
+                        file: value,
+                      ),
                     ),
-                  ),
-                );
+                  );
+                } else {
+                  showCupertinoDialog(
+                      context: context,
+                      builder: (ctx) {
+                        return CupertinoAlertDialog(
+                          content: Text("Please Select a file"),
+                          actions: [
+                            CupertinoButton(
+                                child: Text("OK"),
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                })
+                          ],
+                        );
+                      });
+                }
               });
             },
             child: const Card(
